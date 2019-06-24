@@ -6,4 +6,5 @@ def square_array(array)
   emptyArray.push(array[counter * counter])
     counter += 1
   end
+  return emptyArray
 end
