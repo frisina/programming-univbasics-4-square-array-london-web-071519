@@ -1,10 +1,8 @@
 def square_array(array)
   # your code here
   counter = 0
-  emptyArray = []
-  while counter <= array.length do
-  emptyArray.push(array[counter * counter])
+  while counter do
+array.map {|x| x*x }
     counter += 1
   end
-  return emptyArray
 end
